@@ -30,6 +30,14 @@ mod_vnet_name = {
     "address_space" = ["10.1.0.0/16"]
   }
 
+ vnet3 = {
+    "name"          = "vnet_prod3"
+    "rg_name"       = "rg_prod1"
+    "location"      = "Canada Central"
+    "address_space" = ["10.2.0.0/16"]
+  }
+
+
 }
 
 mod_subnet_name = {
